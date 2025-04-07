@@ -69,7 +69,7 @@ function App() {
   };
 
   return (
-    <div className="p-4 min-h-screen flex flex-col justify-end w-full max-w-xl mx-auto">
+    <div className="p-4 min-h-[60vh] flex flex-col justify-end w-full max-w-xl mx-auto">
       <div className="mb-4 space-y-2">
         {messages.map((msg, idx) => (
           <div
